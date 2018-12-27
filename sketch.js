@@ -30,10 +30,10 @@ function draw() {
 	// lingkaran inti
 	fill(0);
 	noStroke();
-	ellipse(0, 0, 90, 90);
+	ellipse(0, 0, 70, 70);
 
 
-	rotate(frameCount / 30);
+	rotate(-frameCount / 30);
 	// koma kiri
 	image(koma_kiri, 0 - 160, 0 + 40, 70, 70);
 
