@@ -18,19 +18,20 @@ function draw() {
 	translate(pos.x, pos.y);
 	fill(255, 10, 10);
 	stroke(0);
-	strokeWeight(9);
+	strokeWeight(12);
 	// lingkaran luar
 	ellipse(0, 0, 400, 400);
 
 	// lingkaran tengah
 	noFill();
-	stroke(0, 70);
+	stroke(0, 100);
+	strokeWeight(20);
 	ellipse(0, 0, 250, 250);
 
 	// lingkaran inti
 	fill(0);
 	noStroke();
-	ellipse(0, 0, 70, 70);
+	ellipse(0, 0, 90, 90);
 
 
 	rotate(-frameCount / 30);
