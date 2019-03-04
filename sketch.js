@@ -24,7 +24,7 @@ function draw() {
 
 	// lingkaran tengah
 	noFill();
-	stroke(0, 100);
+	stroke(0, 45);
 	strokeWeight(20);
 	ellipse(0, 0, 250, 250);
 
