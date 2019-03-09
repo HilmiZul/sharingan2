@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-	background(255);
+	background(255, 100, 100);
 
 	translate(pos.x, pos.y);
 	fill(255, 10, 10);
